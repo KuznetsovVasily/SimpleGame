@@ -11,6 +11,7 @@ namespace GameEx
         static void Main(string[] args)
         {
             Console.WriteLine("Hello from start");
+            Console.WriteLine("AndAgain");
         }
     }
 }
