@@ -43,12 +43,23 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Animal\IAnimal.cs" />
+    <Compile Include="Animal\ICanFly.cs" />
+    <Compile Include="Animal\ICanSwim.cs" />
+    <Compile Include="Animal\ICanWalk.cs" />
+    <Compile Include="Animal\ISpecie.cs" />
+    <Compile Include="Barrier\IBarrier.cs" />
+    <Compile Include="Global\ICheck.cs" />
+    <Compile Include="Global\ICoord.cs" />
+    <Compile Include="Global\IOpenToMove.cs" />
+    <Compile Include="Plant\IPlant.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.
